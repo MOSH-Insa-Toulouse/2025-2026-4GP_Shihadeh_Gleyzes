@@ -61,7 +61,7 @@ Notre carte comprend un ensemble d’éléments matériels nécessaires au fonct
 * **L'encodeur rotatif :** Molette cliquable permettant à l'utilisateur de naviguer dans les menus de l'écran et de déclencher les mesures. 
 * **Le module Bluetooth :** Transmet les données traitées en temps réel vers notre application smartphone Android. 
 
-<img src="https://github.com/user-attachments/assets/8d7db554-eacc-4a76-acb5-5f6b76f25cb0" width="400">
+<img src="https://github.com/user-attachments/assets/8d7db554-eacc-4a76-acb5-5f6b76f25cb0" width="600">
 
 ### De la Conception à la Réalisation 
 Pour aboutir à notre carte physique, nous sommes passés par deux grandes étapes de conception sur KiCad : 
