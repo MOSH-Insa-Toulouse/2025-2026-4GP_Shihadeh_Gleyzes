@@ -25,7 +25,9 @@ Notre jauge de contrainte a été fabriquée selon une approche "low-tech", en c
 ### 1.1. Géométrie et Fabrication 
 **Support :** Papier classique.  **Matériau sensible :** Dépôt de graphite par frottement.  **Dimensions :** Motif en forme de "U" avec une longueur de bande de 35 mm et un espacement de 5 mm.
 
-<img src="https://github.com/user-attachments/assets/d55af453-bfd5-459e-a5b2-614befb42c47" width="200">
+<img width="555" height="195" alt="image" src="https://github.com/user-attachments/assets/4cfade2f-00c0-493a-8d01-a379f9a5b628" />
+
+
 
 
 ### 1.2. Principe Physique : 
