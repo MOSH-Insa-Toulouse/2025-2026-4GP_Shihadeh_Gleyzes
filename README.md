@@ -54,7 +54,7 @@ Le premier est un filtre actif formé par le condensateur C2 (1 µF) placé en p
  Pour intégrer proprement notre circuit au microcontrôleur, nous avons conçu un "Shield" sur mesure à l'aide du logiciel **KiCad**. Le principe d'un shield est d'être une carte d'extension conçue pour se connecter directement par-dessus la carte Arduino UNO. Cette approche permet de supprimer le câblage pour avoir un tout plus compact et un visuel moins encombré. 
 ### Les Composants Intégrés 
 Notre carte comprend un ensemble d’éléments matériels nécessaires au fonctionnement du système : 
-* **Le capteur en graphite 
+* **Le capteur en graphite **
 * **Le circuit d'amplification transimpédance :** Converti le micro-courant du capteur en une tension (0-5V) lisible par la carte arduino et de filtre les bruits parasites. 
 * **Le potentiomètre :** Intégré au circuit d'amplification et piloté par la carte, il sert à étalonner le signal. Il adapte le gain en temps réel pour garantir une lecture précise, peu importe la résistance du capteur fabriqué.
 * **L'écran OLED :** L'interface visuelle qui permet de lire les mesures en direct et de visualiser les différents menus de la carte. 
@@ -62,3 +62,4 @@ Notre carte comprend un ensemble d’éléments matériels nécessaires au fonct
 * **Le module Bluetooth :** Transmet les données traitées en temps réel vers notre application smartphone Android. 
 
 
+<img src="https://github.com/user-attachments/assets/8d7db554-eacc-4a76-acb5-5f6b76f25cb0" width="400">
