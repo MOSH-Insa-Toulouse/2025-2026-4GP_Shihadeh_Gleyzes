@@ -73,7 +73,7 @@ Pour aboutir à notre carte physique, nous sommes passés par deux grandes étap
 
 <img width="1169" height="846" alt="PCB" src="https://github.com/user-attachments/assets/4fa998a5-6e25-4d96-8b2a-38bfa6b0495d" />
 
-## 4. Programmation Arduino et Microcontrôleur
-## 5. Application Android (MIT App Inventor)
+## 4. Programmation Arduino
+## 5. Application Android 
 ## 6. Le Banc de Test
 ## 7. Datasheet du Capteur
