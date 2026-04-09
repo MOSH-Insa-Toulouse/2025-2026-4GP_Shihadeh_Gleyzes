@@ -23,7 +23,9 @@ L'objectif principal de ce projet est d'évaluer une technologie "low-tech" : un
 ## 1. Le Capteur en Graphite (Low-Tech)
 Notre jauge de contrainte a été fabriquée selon une approche "low-tech", en crayonnant simplement une zone spécifique sur une feuille de papier avec un crayon à papier (graphite). Derrière cette apparente simplicité se cache en réalité un capteur régi par la mécanique quantique. 
 ### 1.1. Géométrie et Fabrication 
-**Support :** Papier classique.  **Matériau sensible :** Dépôt de graphite par frottement.  **Dimensions :** Motif en forme de "U" avec une longueur de bande de 35 mm et un espacement de 5 mm. 
+**Support :** Papier classique.  **Matériau sensible :** Dépôt de graphite par frottement.  **Dimensions :** Motif en forme de "U" avec une longueur de bande de 35 mm et un espacement de 5 mm. ![1000024236](https://github.com/user-attachments/assets/d55af453-bfd5-459e-a5b2-614befb42c47)
+
+
 ### 1.2. Principe Physique : 
 Le réseau de percolation et l'Effet Tunnel Contrairement à un fil de cuivre continu, le trait de crayon déposé sur la rugosité du papier forme un **réseau de percolation** : une multitude de micro et nano-paillettes de graphite dispersées de façon chaotique. Pour que le courant traverse le capteur, les électrons utilisent deux mécanismes : 1. **La conduction ohmique :** Lorsque les paillettes se touchent physiquement. 2. **L'effet tunnel quantique :** Lorsque deux paillettes sont séparées par un vide ou un isolant nanométrique, les électrons (qui se comportent comme des ondes) ont une probabilité de "traverser" cette barrière. La résistance électrique liée à cet effet tunnel ($R_{tunnel}$) dépend de manière **exponentielle** de la distance ($d$) entre les paillettes de graphite : $$R_{tunnel} \propto \exp(\gamma d)$$ 
 ### 1.3. Réponse à la déformation (Macroscopique) 
