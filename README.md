@@ -66,7 +66,9 @@ Notre carte comprend un ensemble d’éléments matériels nécessaires au fonct
 ### De la Conception à la Réalisation 
 Pour aboutir à notre carte physique, nous sommes passés par deux grandes étapes de conception sur KiCad : 
 **1. Le Schématique Électrique** C'est ici que nous avons défini les liens logiques entre tous nos composants et le microcontrôleur, en utilisant des labels pour garder un document lisible.
+
 <img width="1326" height="877" alt="Schematique" src="https://github.com/user-attachments/assets/fd96e312-4a96-4b44-8af5-b1058f227d68" />
 
 **2. Le Routage (PCB)** Une fois le schéma validé, nous avons placé physiquement les composants sur une carte et tracé les pistes de cuivre (en respectant une largeur et une isolation de 0.5 mm minimum).
+
 <img width="1169" height="846" alt="PCB" src="https://github.com/user-attachments/assets/4fa998a5-6e25-4d96-8b2a-38bfa6b0495d" />
