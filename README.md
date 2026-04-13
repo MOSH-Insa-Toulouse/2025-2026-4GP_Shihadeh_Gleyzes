@@ -80,12 +80,10 @@ Pour aboutir à notre carte physique, nous sommes passés par deux grandes étap
 
 Tous les composants de notre shield sont pilotés par une carte Arduino UNO. Le code est disponible dans ce dépôt.
 
-### Fonctionnement général
 Dès qu'on branche la carte, l'Arduino lance une **calibration automatique**. Le programme va tester rapidement plusieurs valeurs sur le potentiomètre numérique pour s'adapter tout seul à la résistance de votre capteur.
 
 Ensuite, l'écran OLED affiche le menu principal. La navigation se fait très simplement avec l'encodeur rotatif : il suffit de tourner la molette pour faire défiler les menus, et de cliquer dessus pour y entrer.
 
-### L'interface sur l'écran
 Le programme propose deux menus :
 
 * **Menu 1 : Mesure en direct** Affiche la résistance du capteur graphite en temps réel. Le code adapte tout seul l'unité (Ohms, kOhms ou MOhms). Pour que l'affichage soit agréable à lire et que les chiffres ne sautent pas dans tous les sens, nous avons ajouté un petit filtre dans le code qui fait une moyenne sur les 15 dernières mesures.
