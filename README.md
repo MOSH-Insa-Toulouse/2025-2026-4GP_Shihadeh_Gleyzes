@@ -144,7 +144,7 @@ Le comportement du capteur dépend directement de la composition de la mine, qui
 * **Les mines dures (ex: 3H) :** Riches en argile (isolante) et pauvres en graphite, elles laissent un dépôt plus fin. À la moindre déformation, ce fragile réseau conducteur risque de se rompre partiellement. Le capteur devient alors **extrêmement sensible**, mais ses mesures sont plus difficiles à répéter.
 On a pu voir que plus la mine du crayon est dure, plus le capteur réagit fort. Cependant, les mines classiques (HB, 2B) offrent des mesures plus stables.
 
-### Ce capteur a-t-il un avenir industriel ?
+### Peut-on industrialiser ce capteur ?
 À grande échelle, **non**. Le principal problème est qu'il est impossible de colorier deux capteurs exactement de la même manière à la main. Les résultats sont donc trop variables pour l'industrie. 
 
 En revanche, son coût quasi nul et sa simplicité de fabrication en font un très bon outil éducatif qui permettent de découvrir tout les aspects nécessaire à prendre en compte et à étudier dans la création d'un capteur.
