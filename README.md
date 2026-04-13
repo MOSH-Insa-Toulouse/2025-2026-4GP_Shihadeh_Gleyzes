@@ -93,7 +93,6 @@ Un petit menu de crédits qui affiche les informations de notre binôme (Samy Sh
 
 ## 5. Application Android 
 
-## 5. Application Android 
 
 
 Pour visualiser les données de notre capteur sans avoir besoin d'un ordinateur, nous avons développé une petite application Android. Elle communique directement avec le module Bluetooth de notre carte.
