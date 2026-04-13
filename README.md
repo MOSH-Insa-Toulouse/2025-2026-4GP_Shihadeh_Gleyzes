@@ -46,7 +46,7 @@ Le cœur de notre circuit repose sur un amplificateur opérationnel monté en tr
 
 Le graphite et les fils de connexion apportent des signaux parasites à cause des ondes ambiantes. Pour obtenir une mesure propre et exploitable, nous avons étagé deux filtres. 
 
-Le premier est un filtre actif formé par le condensateur C2 (1 µF) placé en parallèle de R4. Il crée un filtre passe-bas du premier ordre dont la fréquence de coupure est calculée par la formule f_c = 1\(2\pi R_4 C_2), ce qui donne environ 1.6 Hz. Cela bloque le bruit à 50 Hz tout en laissant passer les variations lentes correspondant à nos contraintes mécaniques. Enfin, un second filtre passe-bas, passif cette fois, est placé juste avant la broche de lecture de l'Arduino. Composé de R3 (1 kΩ) et C3 (100 nF), il possède une fréquence de coupure d'environ 1.6 kHz pour supprimer les bruits à très haute fréquence.
+Le premier est un filtre actif formé par le condensateur C2 (1 µF) placé en parallèle de R4. Il crée un filtre passe-bas du premier ordre dont la fréquence de coupure est calculée par la formule f_c = 1\(2pi*R4*C2), ce qui donne environ 1.6 Hz. Cela bloque le bruit à 50 Hz tout en laissant passer les variations lentes correspondant à nos contraintes mécaniques. Enfin, un second filtre passe-bas, passif cette fois, est placé juste avant la broche de lecture de l'Arduino. Composé de R3 (1 kΩ) et C3 (100 nF), il possède une fréquence de coupure d'environ 1.6 kHz pour supprimer les bruits à très haute fréquence.
 
 ![Schéma du circuit sur LTspice](Lien_vers_capture_schema_LTspice.png) *<img width="1896" height="904" alt="LTspice" src="https://github.com/user-attachments/assets/29f69778-2f79-4e79-a13f-f97231b6c7ea" />*
 
