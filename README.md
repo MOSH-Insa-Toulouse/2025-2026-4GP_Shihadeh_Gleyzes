@@ -17,6 +17,8 @@ L'objectif principal de ce projet est d'évaluer une technologie "low-tech" : un
 5. [L'Application Android](#5-application-android)
 6. [Le Banc de Test](#6-le-banc-de-test)
 7. [La Datasheet Finale](#7-datasheet-du-capteur)
+8. [Conclusion](#8-Conclusion)
+   
 
 ---
 
@@ -132,3 +134,5 @@ Afin d'évaluer et de comparer les performances de nos différents capteurs, nou
 
 
 ## 7. Datasheet du Capteur
+## 8. Conclusion
+
