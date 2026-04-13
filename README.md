@@ -105,11 +105,15 @@ L'application a deux rôles principaux :
 2. **L'affichage :** Une fois connectée, elle reçoit les valeurs de résistance mesurées par la carte et les affiche en direct sur l'écran du téléphone pour voir la réaction du capteur quand on appuie dessus.
 
 **L'interface utilisateur :**
-<img width="344" height="670" alt="Appli" src="https://github.com/user-attachments/assets/da8cc551-c961-43b1-8a29-0d1d29482794" />
+
+
+<img width="170" height="340" alt="Appli" src="https://github.com/user-attachments/assets/da8cc551-c961-43b1-8a29-0d1d29482794" />
 
 
 **Le code par blocs :**
-<img width="1135" height="665" alt="Scratch appli" src="https://github.com/user-attachments/assets/83edec6f-ac42-4f0f-b44e-21732a7f2df7" />
+
+
+<img width="550" height="330" alt="Scratch appli" src="https://github.com/user-attachments/assets/83edec6f-ac42-4f0f-b44e-21732a7f2df7" />
 
 
 ## 6. Le Banc de Test
