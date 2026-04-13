@@ -1,0 +1,22 @@
+Circuit: * U:\Windows\Bureau\LTSpice\projet_symbol.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Feb 10 10:14:27 2026
+Total elapsed time: 0.287 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 20734
+traniter = 20712
+tranpoints = 10357
+accept = 6668
+rejected = 3689
+matrix size = 16
+fillins = 5
+solver = Normal
+Avg thread counts: 1.1/1.2/1.2/1.1
+Matrix Compiler1: 728 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 1.30 KB object code size  0.2/0.3/[0.1]
+
