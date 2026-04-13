@@ -92,5 +92,25 @@ Le programme propose deux menus :
 Un petit menu de crédits qui affiche les informations de notre binôme (Samy Shihadeh & Jules Gleyzes - GP 4A 2026).
 
 ## 5. Application Android 
+
+## 5. Application Android 
+
+
+Pour visualiser les données de notre capteur sans avoir besoin d'un ordinateur, nous avons développé une petite application Android. Elle communique directement avec le module Bluetooth de notre carte.
+
+Nous avons créé cette application en utilisant MIT App Inventor qui permet grâce à un système de programmation par blocs de développer rapidement une application fonctionnelle.
+
+L'application a deux rôles principaux :
+1. **La connexion :** Elle permet de chercher et de se lier facilement au module Bluetooth de notre Shield Arduino.
+2. **L'affichage :** Une fois connectée, elle reçoit les valeurs de résistance mesurées par la carte et les affiche en direct sur l'écran du téléphone pour voir la réaction du capteur quand on appuie dessus.
+
+**L'interface utilisateur :**
+<img width="344" height="670" alt="Appli" src="https://github.com/user-attachments/assets/da8cc551-c961-43b1-8a29-0d1d29482794" />
+
+
+**Le code par blocs :**
+<img width="1135" height="665" alt="Scratch appli" src="https://github.com/user-attachments/assets/83edec6f-ac42-4f0f-b44e-21732a7f2df7" />
+
+
 ## 6. Le Banc de Test
 ## 7. Datasheet du Capteur
