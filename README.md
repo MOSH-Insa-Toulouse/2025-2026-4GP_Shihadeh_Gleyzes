@@ -17,7 +17,7 @@ L'objectif principal de ce projet est d'évaluer une technologie "low-tech" : un
 5. [L'Application Android](#5-application-android)
 6. [Le Banc de Test](#6-le-banc-de-test)
 7. [La Datasheet Finale](#7-datasheet-du-capteur)
-8. [Conclusion](#8-Conclusion)
+8. [Conclusion](#8-conclusion)
    
 
 ---
@@ -135,4 +135,18 @@ Afin d'évaluer et de comparer les performances de nos différents capteurs, nou
 
 ## 7. Datasheet du Capteur
 ## 8. Conclusion
+
+Ce projet nous a permis de prouver qu'il est possible de créer un capteur de flexion fonctionnel avec un simple crayon à papier. 
+
+Le comportement du capteur dépend directement de la composition de la mine, qui est un mélange de **graphite** (conducteur) et **d'argile** (isolant) :
+
+* **Les mines grasses (ex: 3B) :** Riches en graphite, elles déposent une couche épaisse et très conductrice sur le papier. Lors d'une pliure, le courant trouve facilement un chemin. Le capteur est donc **stable et linéaire, mais moins sensible**.
+* **Les mines dures (ex: 3H) :** Riches en argile (isolante) et pauvres en graphite, elles laissent un dépôt plus fin. À la moindre déformation, ce fragile réseau conducteur risque de se rompre partiellement. Le capteur devient alors **extrêmement sensible**, mais ses mesures sont plus difficiles à répéter.
+On a pu voir que plus la mine du crayon est dure, plus le capteur réagit fort. Cependant, les mines classiques (HB, 2B) offrent des mesures plus stables.
+
+### Ce capteur a-t-il un avenir industriel ?
+À grande échelle, **non**. Le principal problème est qu'il est impossible de colorier deux capteurs exactement de la même manière à la main. Les résultats sont donc trop variables pour l'industrie. 
+
+En revanche, son coût quasi nul et sa simplicité de fabrication en font un très bon outil éducatif qui permettent de découvrir tout les aspects nécessaire à prendre en compte et à étudier dans la création d'un capteur.
+
 
