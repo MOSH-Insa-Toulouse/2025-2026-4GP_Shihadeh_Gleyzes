@@ -72,7 +72,11 @@ Pour aboutir à notre carte physique, nous sommes passés par deux grandes étap
 **2. Le Routage (PCB)** Une fois le schéma validé, nous avons placé physiquement les composants sur une carte et tracé les pistes de cuivre (en respectant une largeur et une isolation de 0.5 mm minimum).
 
 <img width="1169" height="846" alt="PCB" src="https://github.com/user-attachments/assets/4fa998a5-6e25-4d96-8b2a-38bfa6b0495d" />
-## 4. Le Code Arduino
+
+
+
+## 4. Programmation Arduino
+
 
 Tous les composants de notre shield sont pilotés par une carte Arduino UNO. Le code est disponible dans ce dépôt.
 
@@ -89,8 +93,6 @@ Le programme propose deux menus :
 * **Menu 2 : Infos Créateurs**
 Un petit menu de crédits qui affiche les informations de notre binôme (Samy Shihadeh & Jules Gleyzes - GP 4A 2026).
 
-
-## 4. Programmation Arduino
 ## 5. Application Android 
 ## 6. Le Banc de Test
 ## 7. Datasheet du Capteur
