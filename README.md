@@ -100,8 +100,8 @@ Pour visualiser les données de notre capteur sans avoir besoin d'un ordinateur,
 Nous avons créé cette application en utilisant MIT App Inventor qui permet grâce à un système de programmation par blocs de développer rapidement une application fonctionnelle.
 
 L'application a deux rôles principaux :
-1. **La connexion :** Elle permet de chercher et de se lier facilement au module Bluetooth de notre Shield Arduino.
-2. **L'affichage :** Une fois connectée, elle reçoit les valeurs de résistance mesurées par la carte et les affiche en direct sur l'écran du téléphone pour voir la réaction du capteur quand on appuie dessus.
+1. **La connexion :** Elle permet de chercher et de se connecter facilement au module Bluetooth.
+3. **L'affichage :** Une fois connectée, elle reçoit les valeurs de résistance mesurées et les affiche sur l'écran du téléphone quand on appuie dessus.
 
 **L'interface utilisateur :**
 
