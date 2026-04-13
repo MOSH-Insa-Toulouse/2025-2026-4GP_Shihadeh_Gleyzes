@@ -13,7 +13,7 @@ L'objectif principal de ce projet est d'évaluer une technologie "low-tech" : un
 1. [Le Capteur en Graphite](#1-le-capteur-en-graphite-low-tech)
 2. [Électronique Analogique et Simulation (LTspice)](#2-électronique-analogique-et-simulation-ltspice)
 3. [Le Shield PCB (KiCad)](#3-le-shield-pcb-kicad)
-4. [Le Code Arduino](#4-programmation-arduino-et-microcontrôleur)
+4. [Le Code Arduino](#4-programmation-arduino)
 5. [L'Application Android](#5-application-android-mit-app-inventor)
 6. [Le Banc de Test](#6-le-banc-de-test)
 7. [La Datasheet Finale](#7-datasheet-du-capteur)
