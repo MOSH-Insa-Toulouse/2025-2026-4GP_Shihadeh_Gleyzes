@@ -116,4 +116,15 @@ L'application a deux rôles principaux :
 
 
 ## 6. Le Banc de Test
+
+
+
+Pour valider scientifiquement l'efficacité de nos capteurs "low-tech" en graphite, il était indispensable de caractériser leur réponse face à des déformations mécaniques connues. 
+
+Nous avons conçu un banc de test en utilisant une pièce imprimée en 3D en forme de cône. Celui-ci possède différents rayons de courbure de sorte que l’on puisse tordre nos différent de capteurs, fait à partir de différents types de graphite, de la même manière.
+
+Afin d'évaluer et de comparer les performances de nos différents capteurs, nous avons étudié l'évolution de leur signal en fonction de la contrainte mécanique appliquée. Pour ce faire, nous avons tracé la variation relative de la résistance ($\frac{\Delta R}{R_0}$) en fonction de la déformation. Avec R la résistance du capteur sous contrainte et R_0 la résistance du capteur lorsqu'il est à plat.
+
+
+
 ## 7. Datasheet du Capteur
