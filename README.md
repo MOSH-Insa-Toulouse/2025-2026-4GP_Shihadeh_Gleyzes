@@ -137,10 +137,10 @@ Afin d'évaluer et de comparer les performances de nos différents capteurs, nou
 
 Pour valider le fonctionnement du capteur, nous avons mesuré l'évolution de sa résistance relative (ΔR/R_0) en fonction de la déformation appliquée, en testant différentes duretés de mines de graphite. 
 
-<img width="1019" height="592" alt="image" src="https://github.com/user-attachments/assets/201101d7-d603-4513-b6e5-63d6bfa19c73" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/201101d7-d603-4513-b6e5-63d6bfa19c73" />
 
 
-<img width="963" height="636" alt="image" src="https://github.com/user-attachments/assets/509711a9-9fa9-47c0-9633-9e93829696e2" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/509711a9-9fa9-47c0-9633-9e93829696e2" />
 
 
 
