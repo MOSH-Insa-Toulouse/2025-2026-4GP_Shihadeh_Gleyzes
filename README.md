@@ -134,6 +134,22 @@ Afin d'évaluer et de comparer les performances de nos différents capteurs, nou
 
 
 ## 7. Datasheet du Capteur
+
+Pour valider le fonctionnement du capteur, nous avons mesuré l'évolution de sa résistance relative (ΔR/R_0) en fonction de la déformation appliquée, en testant différentes duretés de mines de graphite. 
+
+<img width="1019" height="592" alt="image" src="https://github.com/user-attachments/assets/201101d7-d603-4513-b6e5-63d6bfa19c73" />
+
+
+<img width="963" height="636" alt="image" src="https://github.com/user-attachments/assets/509711a9-9fa9-47c0-9633-9e93829696e2" />
+
+
+
+Bien que ces courbes valident le principe physique de base (la résistance augmente en extension et diminue en compression grâce à l'effet tunnel), elles mettent également en évidence les limites du capteur *low-tech* fabriqué à la main :
+
+* **Non-linéarité et variabilité :** L'épaisseur du dépôt de graphite n'étant pas parfaitement uniforme lors d'un coloriage manuel, la réponse électrique présente des irrégularités selon les échantillons.
+* **La limite de rupture mécanique :** Sur le graphique de compression, on observe une remontée anormale et soudaine de la résistance pour des déformations supérieures à 0,004. Cela peut s'expliquer par la nature du substrat : au-delà d'un certain angle, le papier ne fait plus que se courber, il peut se casser en marquant un pli. Cette pliure casse physiquement les chemins de percolation du graphite, faussant totalement la mesure.
+
+
 ## 8. Conclusion
 
 Ce projet nous a permis de prouver qu'il est possible de créer un capteur de flexion fonctionnel avec un simple crayon à papier. 
@@ -145,7 +161,7 @@ Le comportement du capteur dépend directement de la composition de la mine, qui
 On a pu voir que plus la mine du crayon est dure, plus le capteur réagit fort. Cependant, les mines classiques (HB, 2B) offrent des mesures plus stables.
 
 ### Peut-on industrialiser ce capteur ?
-À grande échelle, **non**. Le principal problème est qu'il est impossible de colorier deux capteurs exactement de la même manière à la main. Les résultats sont donc trop variables pour l'industrie. 
+À grande échelle, **non**. Le principal problème est qu'il est impossible de colorier deux capteurs exactement de la même manière à la main. Les résultats sont donc trop variables pour l'industrie. De plus, les tests réalisés sur les capteur ont démontré leurs manque de duraibilité, les morceaux de papier se cassent après peu d'utilisations.
 
 En revanche, son coût quasi nul et sa simplicité de fabrication en font un très bon outil éducatif qui permettent de découvrir tout les aspects nécessaire à prendre en compte et à étudier dans la création d'un capteur.
 
