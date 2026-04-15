@@ -156,7 +156,7 @@ Ce projet nous a permis de prouver qu'il est possible de créer un capteur de fl
 
 Le comportement du capteur dépend directement de la composition de la mine, qui est un mélange de **graphite** (conducteur) et **d'argile** (isolant) :
 
-* **Les mines grasses (ex: 3B) :** Riches en graphite, elles déposent une couche épaisse et très conductrice sur le papier. Lors d'une pliure, le courant trouve facilement un chemin. Le capteur est donc **stable et linéaire, mais moins sensible**.
+* **Les mines grasses (ex: 3B) :** Riches en graphite, elles déposent une couche épaisse et très conductrice sur le papier.Le capteur est donc **stable et linéaire, mais moins sensible**.
 * **Les mines dures (ex: 3H) :** Riches en argile (isolante) et pauvres en graphite, elles laissent un dépôt plus fin. À la moindre déformation, ce fragile réseau conducteur risque de se rompre partiellement. Le capteur devient alors **extrêmement sensible**, mais ses mesures sont plus difficiles à répéter.
 On a pu voir que plus la mine du crayon est dure, plus le capteur réagit fort. Cependant, les mines classiques (HB, 2B) offrent des mesures plus stables.
 
