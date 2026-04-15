@@ -41,7 +41,7 @@ const float R3 = 10000.0;
 // --- Potar ---
 const int POT_MAX_POS = 255;   
 const long POT_BASE_RESISTANCE = 50000;  
-const byte POT_OFFSET = 125;
+const byte POT_OFFSET = 10000;
 const byte POT_ADDR_0 = 0x11; 
 
 // --- Objets ---
@@ -95,15 +95,19 @@ int getSmoothedADC() {
   return total / numReadings;
 }
 
+//Calcule Graph Volt
+float getGraphiteVoltage(){
+  int adcValue = analogRead(GRAPHITE_SENSOR_PIN);
+  return adcValue * VCC / 1023.0;
+}
 //Calcule Graph Res
-
 float getGraphiteRes() {
   int adc = getSmoothedADC();
   float Vadc = adc * VCC / 1023.0;
 
   if (Vadc < 0.05) return -1.0; // Seuil 
   
-  return R2 * (1.0 + (R4 / potResValue)) * (VCC / Vadc) - R2 - R3;
+  return R2 * (1.0 + R4 / potResValue) * (VCC / Vadc) - R2 - R3;
 }
 
 // Routine de démarrage : Cherche une plage de mesure optimale
@@ -123,14 +127,14 @@ const float targetVoltage = 2.5;
     updateDigitalPot(pos);
     delay(40); 
     
-    float v = analogRead(GRAPHITE_SENSOR_PIN) * (VCC / 1023.0);
+    float v = getGraphiteVoltage();
     float diff = abs(v - targetVoltage);
     if (diff < minDiff) {
       minDiff = diff;
       bestPos = pos;
     }
   }
-
+  
   // On applique la meilleure position trouvée
   potPosition = bestPos;
   updateDigitalPot(potPosition);
@@ -216,7 +220,16 @@ void loop() {
         display.setTextSize(1);
         display.setCursor(0, 0); display.println(F("MESURE EN DIRECT"));
         display.print(F("Gain (Pot): ")); display.print(potResValue, 0); display.println(F(" Ohm"));
-        
+         display.setCursor(0, 0); display.println(F("EQUIPE PROJET"));
+        display.drawLine(0, 12, 128, 12, SSD1306_WHITE);
+        display.setCursor(0, 25); display.println(F("Samy Shihadeh"));
+        display.setCursor(0, 40); display.println(F("Jules Gleyzes"));
+        display.setCursor(0, 55); display.println(F("GP 4A - 2026"));
+      }
+    }
+    display.display(); 
+  }
+}  
         display.setCursor(0, 30);
         if (rGraph < 0) {
           display.setTextSize(2); display.print(F("CONNECTER"));
@@ -232,13 +245,7 @@ void loop() {
       } 
       else { // Page Crédits
         display.setTextSize(1);
-        display.setCursor(0, 0); display.println(F("EQUIPE PROJET"));
-        display.drawLine(0, 12, 128, 12, SSD1306_WHITE);
-        display.setCursor(0, 25); display.println(F("Samy Shihadeh"));
-        display.setCursor(0, 40); display.println(F("Jules Gleyzes"));
-        display.setCursor(0, 55); display.println(F("GP 4A - 2026"));
-      }
-    }
+     
     display.display(); 
   }
 }
