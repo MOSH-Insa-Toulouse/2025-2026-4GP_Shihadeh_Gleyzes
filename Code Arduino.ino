@@ -245,7 +245,13 @@ void loop() {
       } 
       else { // Page Crédits
         display.setTextSize(1);
-     
+        display.setCursor(0, 0); display.println(F("EQUIPE PROJET"));
+        display.drawLine(0, 12, 128, 12, SSD1306_WHITE);
+        display.setCursor(0, 25); display.println(F("Samy Shihadeh"));
+        display.setCursor(0, 40); display.println(F("Jules Gleyzes"));
+        display.setCursor(0, 55); display.println(F("GP 4A - 2026"));
+      }
+    }
     display.display(); 
   }
 }
