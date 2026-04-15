@@ -220,16 +220,7 @@ void loop() {
         display.setTextSize(1);
         display.setCursor(0, 0); display.println(F("MESURE EN DIRECT"));
         display.print(F("Gain (Pot): ")); display.print(potResValue, 0); display.println(F(" Ohm"));
-         display.setCursor(0, 0); display.println(F("EQUIPE PROJET"));
-        display.drawLine(0, 12, 128, 12, SSD1306_WHITE);
-        display.setCursor(0, 25); display.println(F("Samy Shihadeh"));
-        display.setCursor(0, 40); display.println(F("Jules Gleyzes"));
-        display.setCursor(0, 55); display.println(F("GP 4A - 2026"));
-      }
-    }
-    display.display(); 
-  }
-}  
+        
         display.setCursor(0, 30);
         if (rGraph < 0) {
           display.setTextSize(2); display.print(F("CONNECTER"));
