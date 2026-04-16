@@ -18,7 +18,7 @@
 #define OLED_RESET -1
 #define OLED_ADDR 0x3C
 
-// --- Capteur & Actionneur ---
+// --- Capteur & Potar ---
 #define GRAPHITE_SENSOR_PIN A0 
 #define POT_CS_PIN 10      
 
@@ -26,9 +26,9 @@
 //                            CONSTANTES & VARIABLES
 // =============================================================================
 
-// --- Lissage des données ---
-const int numReadings = 15;   
-int readings[numReadings];    
+// --- Mesure stable ---
+const int ValMeasure = 15;   
+int Measure[ValMeasure];    
 int readIndex = 0;            
 long total = 0;               
 
@@ -43,8 +43,10 @@ const int POT_MAX_POS = 255;
 const long POT_BASE_RESISTANCE = 50000;  
 const byte POT_OFFSET = 10000;
 const byte POT_ADDR_0 = 0x11; 
+int potPosition = 128;        
+float potResValue = 17000.0;  
 
-// --- Objets ---
+// --- Ecran  ---
 Adafruit_SSD1306 display(OLED_WIDTH, OLED_HEIGHT, &Wire, OLED_RESET);
 
 volatile int encoderPos = 0; 
@@ -53,15 +55,14 @@ int menuSelection = 0;
 bool inSubMenu = false;       
 unsigned long lastUpdate = 0;
 
-int potPosition = 128;        
-float potResValue = 17000.0;  
+
 
 // =============================================================================
 //                                   FONCTIONS 
 // =============================================================================
 
 
-// Interruption de l'encodeur : détecte le sens de rotation
+// Detection sens encodeur & interrupt
  
 void onEncoderInterrupt() {
   if (digitalRead(ENCODER_CLK_PIN) == HIGH) {
@@ -85,14 +86,14 @@ void updateDigitalPot(int position) {
 }
 
 
- // Lissage du signal ADC pour stabiliser la mesure (moyenne glissante)
+ // Mesure stable
 
-int getSmoothedADC() {
-  total = total - readings[readIndex];
-  readings[readIndex] = analogRead(GRAPHITE_SENSOR_PIN);
-  total = total + readings[readIndex];
-  readIndex = (readIndex + 1) % numReadings; // Incrémente et boucle
-  return total / numReadings;
+int stableMeasure() {
+  total = total - Measure[readIndex];
+  Measure[readIndex] = analogRead(GRAPHITE_SENSOR_PIN);
+  total = total + Measure[readIndex];
+  readIndex = (readIndex + 1) % ValMeasure; // Incrémente et boucle
+  return total / ValMeasure;
 }
 
 //Calcule Graph Volt
@@ -102,7 +103,7 @@ float getGraphiteVoltage(){
 }
 //Calcule Graph Res
 float getGraphiteRes() {
-  int adc = getSmoothedADC();
+  int adc = stableMeasure();
   float Vadc = adc * VCC / 1023.0;
 
   if (Vadc < 0.05) return -1.0; // Seuil 
@@ -163,7 +164,7 @@ void setup() {
   }
 
   // Init Lissage
-  for (int i = 0; i < numReadings; i++) readings[i] = 0;
+  for (int i = 0; i < ValMeasure; i++) Measure[i] = 0;
 
   calibration();
   display.clearDisplay();
