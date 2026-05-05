@@ -137,11 +137,9 @@ Afin d'évaluer et de comparer les performances de nos différents capteurs, nou
 
 Pour valider le fonctionnement du capteur, nous avons mesuré l'évolution de sa résistance relative (ΔR/R_0) en fonction de la déformation appliquée, en testant différentes duretés de mines de graphite. 
 
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/201101d7-d603-4513-b6e5-63d6bfa19c73" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f3d53fb9-a36c-42c0-9aa7-399b66744cf7" />
 
-
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/509711a9-9fa9-47c0-9633-9e93829696e2" />
-
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3c94ce98-4bc4-487b-8c0c-74777e72c5a1" />
 
 
 Bien que ces courbes valident le principe physique de base (la résistance augmente en extension et diminue en compression grâce à l'effet tunnel), elles mettent également en évidence les limites du capteur *low-tech* fabriqué à la main :
