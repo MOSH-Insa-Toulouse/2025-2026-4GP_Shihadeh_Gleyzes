@@ -163,7 +163,7 @@ On a pu voir que plus la mine du crayon est dure, plus le capteur réagit fort. 
 
 Précision après présentation :
 
-La qualité de nos mesure ne permet pas de s'exprimer clairement sur la possibilité d'industrialiser ce capteur, cependant notre capteur a très basse compression ou extension démontre une sensibilité extremement bonne (par exemple nous avons presque une sensibilité de 100 pour le crayon B en compression) ce qui nous laisse a penser qu'après stabilisation des mesures avec des modifications apporté sur nos capteurs, ils pourraient avoir des caractéristiques interessantes d'un point de vu performance.
+La qualité de nos mesure ne permet pas de s'exprimer clairement sur la possibilité d'industrialiser ce capteur, cependant notre capteur a très basse compression ou extension démontre une sensibilité extremement bonne (par exemple nous avons presque une sensibilité de 100 pour le crayon B en compression) ce qui nous laisse a penser qu'après stabilisation des mesures avec des modifications apportées sur nos capteurs, ils pourraient avoir des caractéristiques interessantes d'un point de vu performance.
 
 Une piste possible serait d'appliquer de la lacque ou encore de chauffer nos capteur avant test pour bien fixer le graphite sur notre feuille et refaire nos mesures pour déterminer si nos capteurs se comportent normalement.
 
