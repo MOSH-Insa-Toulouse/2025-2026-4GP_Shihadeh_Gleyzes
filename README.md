@@ -161,6 +161,12 @@ On a pu voir que plus la mine du crayon est dure, plus le capteur réagit fort. 
 ### Peut-on industrialiser ce capteur ?
 À grande échelle, **non**. Le principal problème est qu'il est impossible de colorier deux capteurs exactement de la même manière à la main. Les résultats sont donc trop variables pour l'industrie. De plus, les tests réalisés sur les capteur ont démontré leurs manque de duraibilité, les morceaux de papier se cassent après peu d'utilisations.
 
-En revanche, son coût quasi nul et sa simplicité de fabrication en font un très bon outil éducatif qui permettent de découvrir tout les aspects nécessaire à prendre en compte et à étudier dans la création d'un capteur.
+Précision après présentation :
+
+La qualité de nos mesure ne permet pas de s'exprimer clairement sur la possibilité d'industrialiser ce capteur, cependant notre capteur a très basse compression ou extension démontre une sensibilité extremement bonne (par exemple nous avons presque une sensibilité de 100 pour le crayon B en compression) ce qui nous laisse a penser qu'après stabilisation des mesures avec des modifications apporté sur nos capteurs, ils pourraient avoir des caractéristiques interessantes d'un point de vu performance.
+
+Une piste possible serait d'appliquer de la lacque ou encore de chauffer nos capteur avant test pour bien fixer le graphite sur notre feuille et refaire nos mesures pour déterminer si nos capteurs se comportent normalement.
+
+De plus, son coût quasi nul et sa simplicité de fabrication en font un très bon outil éducatif qui permettent de découvrir tout les aspects nécessaire à prendre en compte et à étudier dans la création d'un capteur.
 
 
